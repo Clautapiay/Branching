@@ -1,27 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+  <!-- -------- GOOGLE FONTS ------------>
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
-  
-  
-  <title>Desafío Branching</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans|Space+Mono" rel="stylesheet">
+
+  <title>Desafío Branching</title>
 </head>
+
+
 <body>
+
+
   <div class="container">
+
+
     <h1 class="titulo">¡Vamos a Github!</h1>
+
+    <a href="#" class="azul">#</a>
+
     <a href="https://github.com/">
-      <img src="assets/img/github-logo.jpg" alt="octocat" data-toggle="tooltip" data-placement="top"  title="Ir a GitHub">>
+      <img class="octocat" src="assets/img/github-logo.jpg" alt="octocat" data-toggle="tooltip" data-placement="top"
+        title="Ir a GitHub">
+      <span class="border border-5"></span>
     </a>
     <button type="button" class="btn">
       <a href target="_blank">Click en la imagen para ir a GitHub</a>
     </button>
   </div>
+
+
+  <div class="container">
+    <div id="carouselExampleIndicators" class="carousel slide d-none d-sm-block d-sm-none d-md-block">
+        <div class="carousel-indicators">
+
+        </div>
+        <div class="carousel carousel-inner">
+            <div class="carousel-item active">
+                <img src="assets/img/imagen1.png" class="imagen-carousel" alt="...">
+                <img src="assets/img/imagen2.png" class="imagen-carousel" alt="...">
+                <img src="assets/img/imagen6.jpg" class="imagen-carousel" alt="...">
+                <img src="assets/img/imagen5.png" class="imagen-carousel" alt="...">
+            </div>
+
+        </div>
+    </div>
+</div>
+
 </body>
+
 </html>

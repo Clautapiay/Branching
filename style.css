@@ -1,9 +1,14 @@
 body {
-  background: #342E37;
+  background: pink;
+  
   }
+
 
 .container {
   padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 } 
   
 h1 {
@@ -57,3 +62,26 @@ form {
   box-shadow: none;
   top: 6px; 
 } 
+
+
+.azul {
+  background-color: #00aced;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.imagen {
+  border-color: red;
+}
+
+.imagen-carousel {
+  width: 25%;
+  float: left;
+}
+
+.carousel {
+  display: flex;
+  flex-wrap: wrap;
+}
